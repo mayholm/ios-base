@@ -3,10 +3,10 @@
 
 @interface Observer ()
 
-@property (nonatomic, assign) NSObject *observedObject;
-@property (nonatomic, copy) NSString *keyPath;
+@property (nonatomic, assign) NSObject * observedObject;
+@property (nonatomic, copy) NSString * keyPath;
 @property (nonatomic, copy) ObserverCallback callback;
-@property (nonatomic, assign) NSObject *target;
+@property (nonatomic, assign) NSObject * target;
 @property (nonatomic, assign) SEL selector;
 
 @end
@@ -18,7 +18,7 @@
     [self.observedObject removeObserver:self forKeyPath:self.keyPath];
 }
 
-- (instancetype)initWithObject:(NSObject*)object
+- (instancetype)initWithObject:(NSObject *)object
                        keyPath:(NSString *)keyPath
                        options:(NSKeyValueObservingOptions)options
                       callback:(ObserverCallback)callback
@@ -26,10 +26,10 @@
     return [self initWithObject:object keyPath:keyPath options:options callback:callback target:nil selector:nil];
 }
 
-- (instancetype)initWithObject:(NSObject*)object
+- (instancetype)initWithObject:(NSObject *)object
                        keyPath:(NSString *)keyPath
                        options:(NSKeyValueObservingOptions)options
-                        target:(NSObject*)target
+                        target:(NSObject *)target
                       selector:(SEL)selector
 {
     return [self initWithObject:object keyPath:keyPath options:options callback:nil target:target selector:selector];
@@ -37,11 +37,11 @@
 
 #pragma mark - designated initializer
 
-- (instancetype)initWithObject:(NSObject*)object
+- (instancetype)initWithObject:(NSObject *)object
                        keyPath:(NSString *)keyPath
                        options:(NSKeyValueObservingOptions)options
                       callback:(ObserverCallback)callback
-                        target:(NSObject*)target
+                        target:(NSObject *)target
                       selector:(SEL)selector;
 {
     self = [super init];
