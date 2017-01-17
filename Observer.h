@@ -1,10 +1,3 @@
-//
-//  Observer.h
-//  kvoTest
-//
-//  Created by Pär Majholm on 29/06/16.
-//  Copyright © 2016 Pär Majholm. All rights reserved.
-//
 
 #import <Foundation/Foundation.h>
 

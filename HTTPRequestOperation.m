@@ -1,10 +1,3 @@
-//
-//  HTTPRequestOperation.m
-//  SmartOffice
-//
-//  Created by Pär Majholm on 2017-01-11.
-//  Copyright © 2017 Pär Majholm. All rights reserved.
-//
 
 #import "HTTPRequestOperation.h"
 

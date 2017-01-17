@@ -1,10 +1,3 @@
-//
-//  UIColor+colorWith.m
-//  Svamazon
-//
-//  Created by Pär Majholm on 2017-01-15.
-//
-//
 
 #import "UIColor+colorWith.h"
 
