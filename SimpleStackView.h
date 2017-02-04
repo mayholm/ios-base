@@ -1,7 +1,7 @@
 
 @import UIKit;
 
-@interface ConstraintsStackView : UIView
+@interface SimpleStackView : UIView
 
 @property (nonatomic, assign) IBInspectable CGFloat rowSpacing;
 

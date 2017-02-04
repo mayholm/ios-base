@@ -1,7 +1,7 @@
 
-#import "ConstraintsStackView.h"
+#import "SimpleStackView.h"
 
-@implementation ConstraintsStackView
+@implementation SimpleStackView
 
 - (void)addSubview:(UIView *)view
 {
